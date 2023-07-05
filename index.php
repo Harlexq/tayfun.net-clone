@@ -32,7 +32,62 @@
                 </div>
             </div>
         </section>
+
+        <section class="post">
+            <div class="post-inner">
+                <div class="post-title">
+                    <h2>Son Yazdıklarım</h2>
+                </div>
+                <div class="post-content">
+                    <a href="#" class="post-item">
+                        <h3>CRA Uygulamarınızı Vite'e Geçirin!</h3>
+                        <p><i class="fa-regular fa-calendar"></i> 13 Nisan 2023</p>
+                    </a>
+                    <a href="#" class="post-item">
+                        <h3>Vite Absolute Path</h3>
+                        <p><i class="fa-regular fa-calendar"></i> 07 Şubat 2023</p>
+                    </a>
+                    <a href="#" class="post-item">
+                        <h3>value vs. valueAsNumber</h3>
+                        <p><i class="fa-regular fa-calendar"></i> 15 Ocak 2023</p>
+                    </a>
+                    <a href="#" class="post-item">
+                        <h3>JavaScript print Olayları</h3>
+                        <p><i class="fa-regular fa-calendar"></i> 15 Ocak 2023</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="bookmarks">
+            <div class="bookmarks-inner">
+                <div class="bookmarks-title">
+                    <h2>Yer İmleri</h2>
+                </div>
+                <div class="bookmarks-content">
+                    <a href="#" class="bookmarks-item">
+                        <p>Fast, composable, unstyled command menu for React — ⌘K</p>
+                    </a>
+                    <a href="#" class="bookmarks-item">
+                        <p>Durves - Design Pattern Tool</p>
+                    </a>
+                    <a href="#" class="bookmarks-item">
+                        <p>Next.js 13: complete guide to Server Components and the App Directory</p>
+                    </a>
+                    <a href="#" class="bookmarks-item">
+                        <p>Mesh Gradients Generator by MagicPattern</p>
+                    </a>
+                </div>
+                <div class="bookmarks-links">
+                    <a href="#">Tüm Linkler</a>
+                </div>
+            </div>
+        </section>
     </div>
+
+    <?php
+    include('pages/common/footer.php');
+    ?>
 
 
     <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>

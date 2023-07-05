@@ -18,7 +18,45 @@
         <?php
         include('pages/common/header.php');
         ?>
+
+        <div class="equipment">
+            <div class="equipment-inner">
+                <div class="equipment-title">
+                    <h2 class="h2-title">Ekipmanlar</h2>
+                    <p>Ekipmanların çoğu videolu içerik hazırladığım için daha kaliteli hazırlamak adına aldığım ekipmanlar, bazılarıda kişisel zevklerimi tatmin etsin diye aldıklarım. Aklım hala alamadıklarımda :)</p>
+                </div>
+                <div class="equipment-content">
+                    <div class="equipment-products">
+                        <article class="equipment-item">
+                            <h3>Huawei Matebook D15</h3>
+                            <img src="assets/img/pc.png" alt="">
+                        </article>
+                        <article class="equipment-item">
+                            <h3>ASUS 27" 75Hz 1ms IPS Gaming Monitör</h3>
+                            <img src="assets/img/monitor.jpg" alt="">
+                        </article>
+                        <article class="equipment-item">
+                            <h3>Logitech K580 Slim Bluetooth Klavye</h3>
+                            <img src="assets/img/klavye.png" alt="">
+                        </article>
+                        <article class="equipment-item">
+                            <h3>Monster Pusat One Shot Pro Wireless Mouse</h3>
+                            <img src="assets/img/mouse.png" alt="">
+                        </article>
+                        <article class="equipment-item">
+                            <h3>Huawei Matebook D15</h3>
+                            <img src="assets/img/pc.png" alt="">
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </div>
+
+    <?php
+    include('pages/common/footer.php');
+    ?>
 
 
     <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>

@@ -42,6 +42,10 @@ body {
     margin: 0 auto;
 }
 
+.h2-title {
+    font-size: 3rem;
+}
+
 .header {
     display: flex;
     height: 152px;
@@ -64,13 +68,11 @@ body {
 
 .header .navbar-brand .navbar-link .navbar-title h1 {
     font-size: 1.5rem;
-    line-height: 2rem;
     font-weight: 700;
 }
 
 .header .navbar-brand .navbar-link .navbar-title p {
     font-size: 1rem;
-    line-height: 1.5rem;
     color: #6b7280;
 }
 
@@ -104,12 +106,10 @@ body {
 
 .about .about-inner .about-info h2 {
     font-size: 2.25rem;
-    line-height: 46px;
 }
 
 .about .about-inner .about-info p {
     font-size: 1.125rem;
-    line-height: 1.75rem;
     color: #9ca3af;
     padding-bottom: 1rem;
     padding-top: 1rem;
@@ -132,4 +132,198 @@ body {
 
 .about .about-inner .about-social a:hover {
     color: #fff;
+}
+
+.post .post-inner .post-title {
+    padding: 25px 0;
+}
+
+.post .post-inner .post-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.post .post-inner .post-content .post-item {
+    flex-grow: 1;
+    width: 417px;
+    height: 110px;
+    border: 1px solid hsla(0, 0%, 100%, .2);
+    border-radius: 0.375rem;
+    transition: all .3s ease;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.post .post-inner .post-content .post-item:hover {
+    border: 1px solid hsla(0, 0%, 100%, .4);
+}
+
+.post .post-inner .post-content .post-item h3 {
+    margin: 0 0 0 20px;
+    font-size: 1.5rem;
+}
+
+.post .post-inner .post-content .post-item p {
+    margin: 5px 0 0 20px;
+    font-size: .875rem;
+    color: #6b7280;
+}
+
+.post .post-inner .post-content .post-item p i {
+    margin: 0 5px 0 0;
+}
+
+.bookmarks .bookmarks-inner .bookmarks-title {
+    padding: 25px 0;
+}
+
+.bookmarks .bookmarks-inner .bookmarks-content {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
+
+.bookmarks .bookmarks-inner .bookmarks-content .bookmarks-item {
+    flex-grow: 1;
+    transition: all .3s ease;
+    cursor: pointer;
+    border: 1px solid #000;
+    border-radius: 0.375rem;
+}
+
+.bookmarks .bookmarks-inner .bookmarks-content .bookmarks-item:hover {
+    border: 1px solid hsla(0, 0%, 100%, .4);
+    background-color: #1d2733;
+    color: #6099c6;
+}
+
+.bookmarks .bookmarks-inner .bookmarks-content .bookmarks-item p {
+    padding: 10px 10px 10px 0;
+}
+
+.bookmarks .bookmarks-inner .bookmarks-links {
+    margin-top: 10px;
+    font-size: 1.125rem;
+    text-decoration: underline #93c5fd;
+}
+
+.footer {
+    margin-top: 40px;
+    background-color: #070a0d;
+    border-top: 1px solid #93c5fd;
+}
+
+.footer .footer-inner .footer-info {
+    margin: 30px 0;
+}
+
+.footer .footer-inner .footer-info p {
+    font-size: 1rem;
+    color: #6b7280;
+}
+
+.footer .footer-inner .footer-form {
+    padding: 0 0 30px 0;
+}
+
+.footer .footer-inner .footer-form input {
+    font-size: 1rem;
+    width: 400px;
+    background-color: hsla(0, 0%, 100%, .1);
+    border-radius: 4rem;
+    padding: 0.8rem 1.8rem;
+    outline: none;
+    border: none;
+    margin-right: 15px;
+}
+
+.footer .footer-inner .footer-form input:focus {
+    outline: 1px solid #93c5fd;
+}
+
+.footer .footer-inner .footer-form input::placeholder {
+    color: #8f8f8f;
+}
+
+.footer .footer-inner .footer-form button {
+    font-size: 1rem;
+    padding: 0.8rem 1.8rem;
+    background-color: #93c5fd;
+    border-radius: 4rem;
+    border: none;
+    color: #000;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.blog .blog-inner .blog-content .blog-article {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+    margin: 20px 0 40px 0;
+}
+
+.blog .blog-inner .blog-content .blog-article .blog-history {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    margin-bottom: 0.75rem;
+    color: #6b7280;
+}
+
+.blog .blog-inner .blog-content .blog-article .blog-item {
+    flex-grow: 1;
+    transition: all .3s ease;
+    cursor: pointer;
+    border-radius: 0.375rem;
+    padding: 10px 10px 10px 2px;
+}
+
+.blog .blog-inner .blog-content .blog-article .blog-item:hover {
+    background-color: #1d2733;
+    color: #6099c6;
+}
+
+.equipment .equipment-inner .equipment-title {
+    border-bottom: 1px solid #ffffff1a;
+}
+
+.equipment .equipment-inner .equipment-title p {
+    font-size: 1.125rem;
+    padding-bottom: 2.5rem;
+    color: #9ca3af;
+}
+
+.equipment .equipment-inner .equipment-content {
+    margin-top: 30px;
+}
+
+.equipment .equipment-inner .equipment-content .equipment-products {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.equipment .equipment-inner .equipment-content .equipment-products .equipment-item {
+    flex-grow: 1;
+    background-color: #0d0d0d;
+    border: 1px solid #ffffff1a;
+    width: 370px;
+    height: 450px;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.equipment .equipment-inner .equipment-content .equipment-products .equipment-item img {
+    width: 370px;
+    height: 370px;
+}
+
+.equipment .equipment-inner .equipment-content .equipment-products .equipment-item h3 {
+    text-align: center;
+    font-size: 1.25rem;
+    margin: 1rem 0;
+    font-weight: inherit;
 }
