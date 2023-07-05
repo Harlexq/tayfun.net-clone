@@ -33,7 +33,7 @@
                         </article>
                         <article class="equipment-item">
                             <h3>ASUS 27" 75Hz 1ms IPS Gaming Monitör</h3>
-                            <img src="assets/img/monitor.jpg" alt="">
+                            <img src="assets/img/monitor.png" alt="">
                         </article>
                         <article class="equipment-item">
                             <h3>Logitech K580 Slim Bluetooth Klavye</h3>
@@ -42,6 +42,10 @@
                         <article class="equipment-item">
                             <h3>Monster Pusat One Shot Pro Wireless Mouse</h3>
                             <img src="assets/img/mouse.png" alt="">
+                        </article>
+                        <article class="equipment-item">
+                            <h3>Huawei Matebook D15</h3>
+                            <img src="assets/img/pc.png" alt="">
                         </article>
                         <article class="equipment-item">
                             <h3>Huawei Matebook D15</h3>

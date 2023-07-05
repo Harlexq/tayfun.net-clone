@@ -18,6 +18,48 @@
         <?php
         include('pages/common/header.php');
         ?>
+
+        <div class="moments">
+            <div class="moments-inner">
+                <div class="moments-title">
+                    <h2 class="h2-title">Anlar</h2>
+                    <p>Yıl içinde önemli-önemsiz büyük-küçük anlarımı ufak bir fotoğraf karesi ya da kısa bir video ile ekliyorum, böylece yıl sonunda bir yılımın nasıl geçtiğini react'i kullanarak videolaştırmayı planlıyorum :)</p>
+                </div>
+                <div class="moments-content">
+                    <article class="moments-item">
+                        <p class="blue-fixed">28 Haziran 2023, Çar</p>
+                        <img src="assets/img/serhan.jpg" alt="">
+                        <p class="back-gray">İyi bayramlar mı o zaman :)</p>
+                    </article>
+                    <article class="moments-item">
+                        <p class="blue-fixed">28 Haziran 2023, Çar</p>
+                        <img src="assets/img/serhan.jpg" alt="">
+                        <p class="back-gray">İyi bayramlar mı o zaman :)</p>
+                    </article>
+                    <article class="moments-item">
+                        <p class="blue-fixed">28 Haziran 2023, Çar</p>
+                        <img src="assets/img/serhan.jpg" alt="">
+                        <p class="back-gray">İyi bayramlar mı o zaman :)</p>
+                    </article>
+                    <article class="moments-item">
+                        <p class="blue-fixed">28 Haziran 2023, Çar</p>
+                        <img src="assets/img/serhan.jpg" alt="">
+                        <p class="back-gray">İyi bayramlar mı o zaman :)</p>
+                    </article>
+                    <article class="moments-item">
+                        <p class="blue-fixed">28 Haziran 2023, Çar</p>
+                        <img src="assets/img/serhan.jpg" alt="">
+                        <p class="back-gray">İyi bayramlar mı o zaman :)</p>
+                    </article>
+                    <article class="moments-item">
+                        <p class="blue-fixed">28 Haziran 2023, Çar</p>
+                        <img src="assets/img/serhan.jpg" alt="">
+                        <p class="back-gray">İyi bayramlar mı o zaman :)</p>
+                    </article>
+                </div>
+            </div>
+        </div>
+
     </div>
 
     <?php

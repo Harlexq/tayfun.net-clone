@@ -18,6 +18,47 @@
         <?php
         include('pages/common/header.php');
         ?>
+
+        <div class="page">
+            <div class="page-inner">
+                <div class="page-title">
+                    <h2 class="h2-title">Yer İmleri</h2>
+                </div>
+                <div class="page-content">
+                    <div class="page-article">
+                        <p class="page-history">01 Temmuz 2023</p>
+                        <a href="#" class="page-item">
+                            <p>Fast, composable, unstyled command menu for React — ⌘K</p>
+                        </a>
+                    </div>
+                    <div class="page-article">
+                        <p class="page-history">27 Haziran 2023</p>
+                        <a href="#" class="page-item">
+                            <p>Durves - Design Pattern Tool</p>
+                        </a>
+                    </div>
+                    <div class="page-article">
+                        <p class="page-history">11 Haziran 2023</p>
+                        <a href="#" class="page-item">
+                            <p>Next.js 13: complete guide to Server Components and the App Directory</p>
+                        </a>
+                    </div>
+                    <div class="page-article">
+                        <p class="page-history">10 Haziran 2023</p>
+                        <a href="#" class="page-item">
+                            <p>Mesh Gradients Generator by MagicPattern</p>
+                        </a>
+                    </div>
+                    <div class="page-article">
+                        <p class="page-history">04 Haziran 2023</p>
+                        <a href="#" class="page-item">
+                            <p>Futurepedia - The Largest AI Tools Directory | Home</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </div>
 
     <?php
