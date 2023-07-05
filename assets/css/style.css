@@ -1,0 +1,135 @@
+/*
+    Serhan Bakır
+    Junior Web Developer
+    Ajans: Digital Küre
+    Mail: serhan@digitalkure.com
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@400;600&display=swap');
+
+:root {
+    --black: #000;
+    --dark: #111418;
+    --white: #fff;
+    --blue: #656bfa;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: var(--white);
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #000;
+    color: #fff;
+}
+
+.container {
+    width: 1248px;
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    height: 152px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header .navbar-brand .navbar-link {
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.header .navbar-brand .navbar-link .navbar-logo img {
+    width: 96px;
+    height: 96px;
+    border-radius: 50%;
+    border: 1px solid hsla(0, 0%, 100%, .2);
+}
+
+.header .navbar-brand .navbar-link .navbar-title h1 {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: 700;
+}
+
+.header .navbar-brand .navbar-link .navbar-title p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: #6b7280;
+}
+
+.header .nav .nav-inner .navbar {
+    display: flex;
+    justify-content: flex-end;
+    column-gap: 10px;
+}
+
+.header .nav .nav-inner .navbar .navbar-item a {
+    font-size: 1rem;
+    display: inline-block;
+    padding: 0.375rem 1rem;
+}
+
+.header .nav .nav-inner .navbar .navbar-item .active {
+    background-color: #1d2733;
+    color: #6099c6;
+    border-radius: 0.375rem;
+}
+
+.about {
+    background-color: rgba(147, 197, 253, .05);
+    border: 1px solid rgba(147, 197, 253, .3);
+    border-radius: 0.375rem;
+}
+
+.about .about-inner {
+    padding: 2.5rem;
+}
+
+.about .about-inner .about-info h2 {
+    font-size: 2.25rem;
+    line-height: 46px;
+}
+
+.about .about-inner .about-info p {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    color: #9ca3af;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+
+.about .about-inner .about-social {
+    margin-top: 1.25rem;
+}
+
+.about .about-inner .about-social a {
+    color: #9ca3af;
+    transition: all .3s ease;
+    font-size: 1.5rem;
+    margin: 0 8px;
+}
+
+.about .about-inner .about-social a:last-child {
+    margin: 0 8px 0 0;
+}
+
+.about .about-inner .about-social a:hover {
+    color: #fff;
+}
