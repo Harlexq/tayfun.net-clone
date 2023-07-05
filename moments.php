@@ -21,7 +21,7 @@
 
         <div class="moments">
             <div class="moments-inner">
-                <div class="moments-title">
+                <div class="moments-title border-bottom">
                     <h2 class="h2-title">Anlar</h2>
                     <p>Yıl içinde önemli-önemsiz büyük-küçük anlarımı ufak bir fotoğraf karesi ya da kısa bir video ile ekliyorum, böylece yıl sonunda bir yılımın nasıl geçtiğini react'i kullanarak videolaştırmayı planlıyorum :)</p>
                 </div>

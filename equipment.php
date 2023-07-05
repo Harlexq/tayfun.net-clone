@@ -21,7 +21,7 @@
 
         <div class="equipment">
             <div class="equipment-inner">
-                <div class="equipment-title">
+                <div class="equipment-title border-bottom">
                     <h2 class="h2-title">Ekipmanlar</h2>
                     <p>Ekipmanların çoğu videolu içerik hazırladığım için daha kaliteli hazırlamak adına aldığım ekipmanlar, bazılarıda kişisel zevklerimi tatmin etsin diye aldıklarım. Aklım hala alamadıklarımda :)</p>
                 </div>

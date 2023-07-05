@@ -21,7 +21,7 @@
 
         <div class="page">
             <div class="page-inner">
-                <div class="page-title">
+                <div class="page-title border-bottom">
                     <h2 class="h2-title">Yer İmleri</h2>
                 </div>
                 <div class="page-content">

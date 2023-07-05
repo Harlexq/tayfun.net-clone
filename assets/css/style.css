@@ -11,7 +11,7 @@
     --black: #000;
     --white: #fff;
     --gray: rgb(107, 114, 128);
-    --twogray: rgb(107, 114, 128)1a;
+    --twogray: rgb(107, 114, 128);
     --blue: #93c5fd;
 }
 
@@ -45,6 +45,10 @@ body {
 
 .h2-title {
     font-size: 3rem;
+}
+
+.border-bottom {
+    border-bottom: 1px solid var(--twogray);
 }
 
 .header {
@@ -287,10 +291,6 @@ body {
     color: #6099c6;
 }
 
-.equipment .equipment-inner .equipment-title {
-    border-bottom: 1px solid var(--twogray);
-}
-
 .equipment .equipment-inner .equipment-title p {
     font-size: 1.125rem;
     padding-bottom: 2.5rem;
@@ -326,10 +326,6 @@ body {
     font-size: 1.25rem;
     margin: 1rem 0;
     font-weight: inherit;
-}
-
-.moments .moments-inner .moments-title {
-    border-bottom: 1px solid var(--twogray);
 }
 
 .moments .moments-inner .moments-title p {
