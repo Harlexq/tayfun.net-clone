@@ -28,4 +28,7 @@
             </ul>
         </div>
     </nav>
+    <div class="toggle">
+        <i class="fa-solid fa-bars"></i>
+    </div>
 </header>

@@ -5,6 +5,80 @@
     Mail: serhan@digitalkure.com
 */
 
-@media only screen and (max-width: 768px) {}
+@media only screen and (max-width: 780px) {
+    .h2-title {
+        font-size: 2.5rem;
+        margin-bottom: 10px;
+    }
 
-@media only screen and (max-width: 500px) {}
+    .header .navbar-brand .navbar-link .navbar-logo img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .header .navbar-brand .navbar-link .navbar-title h1 {
+        font-size: 1.3rem;
+    }
+
+    .header .navbar-brand .navbar-link .navbar-title p {
+        font-size: 0.9rem;
+    }
+
+    .header .nav {
+        display: none;
+    }
+
+    .toggle {
+        display: block;
+    }
+
+    .toggle i {
+        font-size: 1.5rem;
+        cursor: pointer;
+    }
+
+    .about .about-inner .about-info h2 {
+        font-size: 1.50rem;
+    }
+
+    .about .about-inner .about-info p {
+        font-size: 1rem;
+    }
+
+    .about .about-inner .about-social {
+        margin-top: 1.25rem;
+        text-align: center;
+    }
+
+    .post .post-inner .post-content .post-item h3 {
+        font-size: 1rem;
+    }
+
+    .equipment .equipment-inner .equipment-title p,
+    .moments .moments-inner .moments-title p {
+        font-size: 0.9rem;
+    }
+
+    .footer .footer-inner .footer-info p {
+        font-size: 0.8rem;
+    }
+
+    .footer .footer-inner .footer-form {
+        text-align: center;
+    }
+
+    .footer .footer-inner .footer-form input {
+        width: 100%;
+    }
+
+    .footer .footer-inner .footer-form button {
+        margin-top: 10px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+
+    .footer .footer-inner .footer-form input {
+        width: 100%;
+    }
+}

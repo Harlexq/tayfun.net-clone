@@ -44,8 +44,8 @@
                             <img src="assets/img/mouse.png" alt="">
                         </article>
                         <article class="equipment-item">
-                            <h3>Huawei Matebook D15</h3>
-                            <img src="assets/img/pc.png" alt="">
+                            <h3>Rampage Rm-k81 Deluxe</h3>
+                            <img src="assets/img/rampage.png" alt="">
                         </article>
                         <article class="equipment-item">
                             <h3>Huawei Matebook D15</h3>
