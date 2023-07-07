@@ -28,6 +28,20 @@
         display: none;
     }
 
+    .header {
+        position: relative;
+    }
+
+    .header .nav .nav-inner .navbar {
+        flex-direction: column;
+        width: 100%;
+        background: #000;
+        position: absolute;
+        top: 130px;
+        left: 0;
+        padding: 20px 0;
+    }
+
     .toggle {
         display: block;
     }
