@@ -1,6 +1,6 @@
 <pre>
     <code>
-        Turkish
+Turkish
     </code>
 </pre>
 
@@ -16,7 +16,7 @@ Proje'yi çalıştırmak için aşağıdaki adımları takip edebilirsiniz:
 
 <pre>
     <code>
-        git clone https://github.com/Harlexq/tayfun.net-clone.git
+git clone https://github.com/Harlexq/tayfun.net-clone.git
     </code>
 </pre>
 
@@ -28,7 +28,7 @@ Web sunucusunu çalıştırdıktan sonra, tarayıcınızı açın ve aşağıdak
 
 <pre>
     <code>
-        http://localhost/tayfun.net-clone/
+http://localhost/tayfun.net-clone/
     </code>
 </pre>
 
@@ -42,7 +42,7 @@ Bu adımları takip ederek, klonlanmış proje için yerel bir web sunucusu üze
 
 <pre>
     <code>
-        English
+English
     </code>
 </pre>
 
@@ -58,7 +58,7 @@ First, you need to download the project from GitHub. You can download the projec
 
 <pre>
     <code>
-        git clone https://github.com/Harlexq/tayfun.net-clone.git
+git clone https://github.com/Harlexq/tayfun.net-clone.git
     </code>
 </pre>
 
@@ -70,7 +70,7 @@ After running the web server, open your browser and visit the following URL:
 
 <pre>
     <code>
-        http://localhost/tayfun.net-clone/
+http://localhost/tayfun.net-clone/
     </code>
 </pre>
 
