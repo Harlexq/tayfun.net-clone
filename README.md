@@ -1,8 +1,6 @@
-<pre>
-    <code>
+```sh
 Turkish
-    </code>
-</pre>
+```
 
 # Proje Tanımı
 
@@ -14,11 +12,9 @@ Proje'yi çalıştırmak için aşağıdaki adımları takip edebilirsiniz:
 
 İlk olarak, projeyi GitHub üzerinden indirmeniz gerekmektedir. GitHub sayfasında projenin ana sayfasında "Clone or download" butonuna tıklayarak projeyi bilgisayarınıza indirebilirsiniz. Alternatif olarak, aşağıdaki komutu kullanarak projeyi klonlayabilirsiniz:
 
-<pre>
-    <code>
+```sh
 git clone https://github.com/Harlexq/tayfun.net-clone.git
-    </code>
-</pre>
+```
 
 Projeyi bilgisayarınıza indirdikten veya klonladıktan sonra, bir web sunucusu çalıştırmanız gerekmektedir. Bu işlem için XAMPP, Laragon veya tercih ettiğiniz başka bir web sunucusu uygulaması kullanabilirsiniz. Bu uygulamalar, yerel bir sunucu oluşturarak projenizi çalıştırmanıza olanak sağlar.
 
@@ -26,11 +22,9 @@ Web sunucusu uygulamasını başlatın ve proje dosyalarını sunucunun çalış
 
 Web sunucusunu çalıştırdıktan sonra, tarayıcınızı açın ve aşağıdaki URL'yi ziyaret edin:
 
-<pre>
-    <code>
+```sh
 http://localhost/tayfun.net-clone/
-    </code>
-</pre>
+```
 
 Bu URL, yerel sunucunuzun adresi ve proje dizinini temsil etmektedir. Proje klasörünüzün adını ve sunucu adresinizi gerektiği gibi güncelleyin.
 
@@ -40,11 +34,9 @@ Bu adımları takip ederek, klonlanmış proje için yerel bir web sunucusu üze
 
 <br>
 
-<pre>
-    <code>
+```sh
 English
-    </code>
-</pre>
+```
 
 # Project Description
 
@@ -56,11 +48,9 @@ You can follow the steps below to run the Project:
 
 First, you need to download the project from GitHub. You can download the project to your computer by clicking the "Clone or download" button on the main page of the project on the GitHub page. Alternatively, you can clone the project using the following command:
 
-<pre>
-    <code>
+```sh
 git clone https://github.com/Harlexq/tayfun.net-clone.git
-    </code>
-</pre>
+```
 
 After downloading or cloning the project to your computer, you need to run a web server. You can use XAMPP, Laragon or any other web server application of your choice for this process. These applications allow you to run your project by creating a local server.
 
@@ -68,11 +58,9 @@ Start the web server application and copy the project files to the server's work
 
 After running the web server, open your browser and visit the following URL:
 
-<pre>
-    <code>
+```sh
 http://localhost/tayfun.net-clone/
-    </code>
-</pre>
+```
 
 This URL represents the address and project directory of your local server. Update your project folder name and server address as needed.
 
